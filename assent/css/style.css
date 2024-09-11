@@ -1,0 +1,93 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #cdb16a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilo para las imágenes */
+section img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10%;
+    border: 3px solid #cdb16a;
+}
+
+/* Estilo para los títulos de las secciones */
+h2, h3 {
+    color: #cdb16a;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Estilo para las listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+/* Agregar un icono antes de cada ítem de la lista */
+ul li:before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #cdb16a;
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #cdb16a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #cdb16a;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: rgb(40, 36, 19);
+}

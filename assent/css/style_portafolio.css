@@ -1,0 +1,107 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #cdb16a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilo para las imágenes */
+section img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10%;
+    border: 3px solid #cdb16a;
+}
+
+/* Estilo para los títulos de las secciones */
+h2, h3 {
+    color: #cdb16a;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Estilo para la tabla */
+.proyectos-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.proyectos-tabla th, .proyectos-tabla td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.proyectos-tabla th {
+    background-color: #f2f2f2;
+    color: #cdb16a;
+    font-size: 1.2em;
+}
+
+.proyectos-tabla td {
+    vertical-align: middle;
+}
+
+.proyectos-tabla img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #cdb16a;
+    transition: transform 0.3s ease;
+}
+
+.proyectos-tabla img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para los títulos */
+h2 {
+    color: #cdb16a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #cdb16a;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
